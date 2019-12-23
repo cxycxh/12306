@@ -3,4 +3,8 @@
 *.yaml
 *.log
 .idea/
+.vscode/
+env/
+my_config.yml
+filter_cdn_list
 tkcode.png
