@@ -1,8 +1,9 @@
 # -*- coding=utf-8 -*-
 from yaml import load
+from yaml import FullLoader
 
-config_file = open('my_config.yml')
-ticket_config = load(config_file)
+config_file = open('my_config.yml', encoding='utf-8')
+ticket_config = load(config_file, Loader=FullLoader)
 
 
 # 关于软件使用配置说明，一定要看！！！
